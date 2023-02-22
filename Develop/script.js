@@ -20,8 +20,22 @@ function writePassword() {
       var lower = window.confirm("Would you like lowercase letters in your password?");
       var numbers = window.confirm("Would you like numbers in your password?");
       var special = window.confirm("Would you like special characters in your password?");
+     };
+
+     //one char type selected
+     if (upper) {
+      newPassword = newPassword.concat(charLettersUpper)
+     } else if (lower) {
+      newPassword = newPassword.concat(charLettersLower)
+     } else if (numbers) {
+      newPassword = newPassword.concat(charNumber)
+     } else if (special) {
+      newPassword = newPassword.concat(charSpecial)
      }
 
+
+
+//test console logs
 console.log(length)
 console.log(newPassword)
 
