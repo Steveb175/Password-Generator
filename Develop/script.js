@@ -20,6 +20,13 @@ function writePassword() {
       var addLower = window.confirm("Would you like lowercase letters in your password?");
       var addNumbers = window.confirm("Would you like numbers in your password?");
       var addSpecial = window.confirm("Would you like special characters in your password?");
+        while(addUpper === false && addLower === false && addNumbers === false && addSpecial === false) {
+          window.alert("Please choose at least one variable.")
+          var addUpper = window.confirm("Would you like uppercase letters in your password?");
+          var addLower = window.confirm("Would you like lowercase letters in your password?");
+          var addNumbers = window.confirm("Would you like numbers in your password?");
+          var addSpecial = window.confirm("Would you like special characters in your password?");
+        }
      };
 
 //character type selection
@@ -37,10 +44,10 @@ function writePassword() {
      }
      
 //Randomization
-     var newPassword = "";
+     var newPassword = [];
 
      for (var i = 0; i < length; i++);
-      var newPassword = newPassword + concatPassword[Math.floor(Math.random() * concatPassword.length)];
+      newPassword = newPassword + concatPassword[Math.floor(Math.random() * concatPassword.length)];
 
 //test console logs
 console.log(setLength);
