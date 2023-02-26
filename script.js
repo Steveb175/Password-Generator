@@ -104,11 +104,11 @@ function generatePassword() {
   setLength = parseInt(setLength);
 
   if (!setLength) {
-    window.prompt("Please choose a number between 8 and 128.");
+    window.alert("Please choose a number between 8 and 128.");
+    return "Please try again.";
   } else if (setLength < 8 || setLength > 128) {
-    var setLength = window.prompt(
-      "The number you choose must be between 8 and 128 characters"
-    );
+    window.alert("Please choose a number between 8 and 128.");
+    return "Please try again.";
     //character selection confirmation
   } else {
     var addUpper = window.confirm(
