@@ -8,11 +8,12 @@ This application creates a randomized password for the user. It allows the user 
 
 N/A
 
-## Visuals
-
 ## Usage
 
 The purpose of this application is to provide users with randomized passwords that they can have for personal use.
+
+![Before Password Generated](/assets/before.png)
+![After password Generated](/assets/after.png)
 
 ## URL
 
