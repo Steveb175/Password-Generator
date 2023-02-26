@@ -17,7 +17,7 @@ The purpose of this application is to provide users with randomized passwords th
 
 ## URL
 
-https://steveb175.github.io/Challenge-2/
+https://steveb175.github.io/Password-Generator/
 
 ## Credits
 
