@@ -12,8 +12,8 @@ N/A
 
 The purpose of this application is to provide users with randomized passwords that they can have for personal use.
 
-![Before Password Generated](/assets/before.png)
-![After password Generated](/assets/after.png)
+![Before Password Generated](/Assets/Before.PNG)
+![After password Generated](/Assets/After.PNG)
 
 ## URL
 
